@@ -1,0 +1,53 @@
+html {
+    background-color: lightslategrey;
+    font-family: sans-serif;
+
+}
+body {
+    margin: auto;
+    max-width: 600px;
+    height: 600px;
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+
+#billy {
+    color: darkred;
+    border-width: 1px;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 5px;
+}
+p {
+    font-size: medium;
+}
+
+.two{
+    font-size: larger;
+}
+
+.three {
+    font-size: small;
+}
+
+#bob {
+    color: darkgreen;
+    border-width: 1px;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 5px;
+}
+
+#bob .two a {
+    color:orange;
+    text-decoration:overline underline;
+}
+
+#bob a {
+    text-decoration: line-through;
+}

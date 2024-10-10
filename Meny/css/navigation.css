@@ -5,6 +5,7 @@ ul {
   overflow: hidden;
   background-color: #38444d;
   border: 1px solid red;
+  
 }
 
 li {
@@ -88,4 +89,9 @@ body {
 
 body h3 {
   margin-left: 1%;
+}
+
+@media screen and (max-width: 1400px) {
+  header.mainmenu li:last-child, 
+  header.mainmenu li {float: none;}
 }

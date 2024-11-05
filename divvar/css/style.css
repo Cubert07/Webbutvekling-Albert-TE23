@@ -1,0 +1,42 @@
+.header {
+    border: solid black;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid black;
+}
+
+.varför {
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid black;
+}
+
+.bra {
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid black;
+}
+
+.footer {
+    
+    position: fixed;
+    border: 2px solid black;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+div {
+    border-radius: 5px;
+    color: darkred;
+    background-color: white;
+}
+
+body {
+    background-color: antiquewhite;
+    margin-bottom: 10%;
+}

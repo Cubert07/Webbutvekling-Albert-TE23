@@ -1,4 +1,6 @@
-.header {
+.header { 
+    margin-left: 30%;
+    margin-right: 30%;
     border: solid black;
     text-align: center;
 }

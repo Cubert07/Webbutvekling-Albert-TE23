@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessibility Exercise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+    <img src="cat.png" alt="an image of a cat">
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <form action="submit.html" method="post">
+        <label>Name
+        <input type="text" name="name" required>
+    </label>
+        <label>Email
+        <input type="email" name="email" required>
+    </label>
+        <label>Message
+        <textarea name="message"></textarea>
+    </label>
+        <button type="submit">Submit</button>
+    </form>
+    <a href="https://www.example.com" target="_blank">Visit Example</a>
+    <button onclick="alert('Clicked!')">Click Me</button>
+    <div class="red-text">This is a red text.</div>
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+        </tr>
+    </table>
+    <video controls>
+        <source src="movie.mp4" type="video/mp4">
+    </video>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+    <div role="button" tabindex="0">Press me</div>
+    <div id="content" aria-hidden="true">This content is hidden</div>
+    <input type="text" aria-label="Search">
+    <div class="black-on-black">Black on black text</div>
+    <div class="large-image">
+        <img src="large-image.jpg" alt="An image of something large">
+    </div>
+    <div class="small-text">This text is too small to read</div>
+    <div class="large-text">This text is too large</div>
+</body>
+</html>
+
+CSS:
+.red-te

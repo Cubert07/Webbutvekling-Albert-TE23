@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+.meny a {
+  font-family: 'Playfair Display', serif; /* Serif font */;
+  color: #b03a3a; /* Reddish rose color */
+  letter-spacing: 0.1em; /* Adds space between letters */
+  text-transform: uppercase; /* Makes the text uppercase */
+}
+
+.meny a{
+    margin-left: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.footer {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #04AA6D;
+  height: 30vh;
+  justify-content: space-evenly;
+}

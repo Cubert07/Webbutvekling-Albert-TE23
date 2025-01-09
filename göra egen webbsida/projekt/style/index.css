@@ -1,0 +1,53 @@
+ul {
+    border:  solid black;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul .text {
+    float: right;
+}
+
+ul img {
+    padding-left: 5vw;
+}
+
+ul a {
+    padding-left: 7vw;
+}
+
+.loga img {
+    width: 5vw;
+    height: auto;
+}
+
+.text{
+    margin-left: 33vw;
+    width: 34vw;
+    height: auto;
+}
+
+.products ul img {
+    width: 15vw;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    width: 100vw;
+    height: auto;
+}
+
+.footer {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #04AA6D;
+    height: 30vh;
+    justify-content: space-evenly;
+}

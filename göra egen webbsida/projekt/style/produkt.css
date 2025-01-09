@@ -1,0 +1,39 @@
+img {
+    width: 50vh;
+    height: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+.köp {
+    float: right;
+    width: 30vw;
+    margin-right: 20vw;
+
+}
+
+.köp a {
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: solid black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.köp a {
+    font-family: 'Playfair Display', serif; /* Serif font */;
+    color: #b03a3a; /* Reddish rose color */
+    letter-spacing: 0.1em; /* Adds space between letters */
+    text-transform: uppercase; /* Makes the text uppercase */
+}
+
+.background {
+    width: auto;
+    height: 14vh;
+    background-image: url(bilder/toppbild_rosor.jpg);
+}
+
+.fake_ad {
+    float: right;
+}

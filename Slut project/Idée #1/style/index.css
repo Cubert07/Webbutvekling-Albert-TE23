@@ -1,0 +1,11 @@
+html #title {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 5vh 15vw 0 15vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,26 @@
+lektion 1:
+Jag började med index.html och navbaren samt att jag började med att leta upp lite bilder till hemsidan.
+
+Nästa lektion:
+Jag tänker att jag ska börja med de andra sidorna och kanske börja med footern.
+
+Lektion 2:
+Jag började med att skapa about.html, location.html och book.html då jag likade navbat.css och footer.css till
+sidorna då både navbaren och footern blev klar samt att jag började lite med location.html och book.html samt att
+jag la till lite JS till sidorna så att jag inte behöver gör en book.html till varje stad.
+
+Nästa lektion:
+Jag ska börja med att förbätra hur location.html ser utt samt fixa så att footern inte överlappar när man
+breden på sidorna samt att jag ska fixa lite med hur sidan kommer att se utt när man går till den på telefon.
+
+Lektion 3:
+Jag började med att göra location.html lite snygare och bättre och jag har fixat så att footern funkar 
+på telefon och så att den inte längre överlappar med content diven som jag har på varje HTML sida.
+
+Nästa lektion:
+Jag ska börja tänka på hur man skulle kuna göra book.html lite bättre och snygare och fylla utt med lite mera
+filler på index.html så att det inte ser så tomt utt. Kanske skriva lite mera på about.html sidan.
+
+Lektion 4:
+Jag började med att fixa lite med book.hmtl så att det funkar mer som en sida där man skulle kuna booka ett bord
+Samt att

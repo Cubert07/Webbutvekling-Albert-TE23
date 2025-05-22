@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Slot Booking App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/book.css">
+  <link rel="stylesheet" href="style/navbar.css">
+  <meta name="description" content="Robert's Grill - En smakfull upplevelse av Texas Barbeque med 100% svenskt kött. Välkommen till vår grillkedja!">
+    <meta name="keywords" content="Robert's Grill, Texas Barbeque, Svenskt kött, Grillkedja, Restaurang">
+</head>
+<body>
+  <div class="navbar">
+            <!-- Navbar for Home page -->
+            <button class="dropdown-toggle">☰ Menu</button>
+            <nav class="dropdown-menu">
+                <a href="index.html">Hem</a>
+                <a href="location.html">Menyer & Boka Bord</a>
+                <a href="about.html">Om Oss</a>
+                <a href="delivery.html">Beställ Hem</a>
+            </nav>
+        </div>
+  <div class="container">
+    <h1>Boka Bord</h1>
+
+    <p>Vänligen fyll i dina uppgifter för att boka bord.</p>
+    <label for="name">Namn:</label>
+    <br>
+    <input type="text" id="name" placeholder="Ditt namn" required>
+    <br>
+    <br>
+    <label for="phone">Telefonnummer:</label>
+    <br>
+    <input type="tel" id="phone" placeholder="Ditt telefonnummer" required>
+    <br>
+    <br>
+    <label for="email">E-post:</label>
+    <br>
+    <input type="email" id="email" placeholder="Din e-post" required>
+    <br>
+    <br>
+    <label for="party-size">Antal personer:</label>
+    <br>
+    <input type="number" id="party-size" min="1" max="10" placeholder="Antal personer" required>
+    <p>Fler än 10 personer? kontakta oss via e-post</p>
+
+    <div class="date-picker">
+      <label for="booking-date">Datum:</label>
+      <input type="date" id="booking-date">
+    </div>
+    <div class="time-slot-container"></div>
+
+    <div class="booked-slots-container">
+    <h2>Bokade Tider</h2>
+    <table id="booked-slots-table">
+      <thead>
+        <tr>
+          <th>Datum</th>
+          <th>Tid</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  </div>
+
+  <!-- Confirmation Modal -->
+  <div id="confirmation-modal" class="modal hidden">
+    <div class="modal-content">
+      <p id="selected-slot"></p>
+      <button id="confirm-btn" class="btn">Confirm</button>
+      <button id="cancel-btn" class="btn cancel">Cancel</button>
+    </div>
+  </div>
+
+  <!-- Cancel Booking Modal -->
+  <div id="cancel-modal" class="modal hidden">
+    <div class="modal-content">
+      <p id="cancel-slot-message"></p>
+      <button id="confirm-cancel-btn" class="btn cancel">Yes, Cancel</button>
+      <button id="close-cancel-btn" class="btn">No</button>
+    </div>
+  </div>
+
+  <script src="scripts/book.js"></script>
+</body>
+</html>

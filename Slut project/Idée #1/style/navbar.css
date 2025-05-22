@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;  
+}
+
+
+.navbar {
+    background-image: url(images/menu_background.webp);
+    overflow: hidden;
+    height: 70px;
+    max-height: 70px;
+}
+
+
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.navbar a:hover {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000;
+    font-size: larger;
+}

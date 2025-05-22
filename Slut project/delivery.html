@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert's Grill</title>
+    <link rel="icon" href="style/images/logo.webp">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/delivery.css">
+    <script src="scripts/navbar.js" defer></script>
+    <script src="scripts/delivery.js" defer></script>
+    <meta name="description" content="Robert's Grill - En smakfull upplevelse av Texas Barbeque med 100% svenskt kött. Välkommen till vår grillkedja!">
+    <meta name="keywords" content="Robert's Grill, Texas Barbeque, Svenskt kött, Grillkedja, Restaurang">
+</head>
+<body>
+    <div class="navbar">
+            <!-- Navbar for Home page -->
+            <button class="dropdown-toggle">☰ Menu</button>
+            <nav class="dropdown-menu">
+                <a href="index.html">Hem</a>
+                <a href="location.html">Menyer & Boka Bord</a>
+                <a href="about.html">Om Oss</a>
+            </nav>
+        </div>
+    <div class="container">
+        <div class="delivery-content">
+            <h1>Beställ Hem</h1>
+            <form id="order-form">
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" placeholder="Ditt namn" required>
+
+                <label for="phone">Telefonnummer:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Ditt telefonnummer" required pattern="[0-9\-\s]+">
+
+                <label for="address">Adress:</label>
+                <input type="text" id="address" name="address" placeholder="Din adress" required>
+
+
+                <div id="meals-list">
+                    <div class="meal-row">
+                        <label>Maträtt:</label>
+                        <input type="text" name="menu-item" class="menu-item-input" placeholder="Klicka för att välja" readonly required style="cursor:pointer; background:#2a1a15; color:#ffb366;"/>
+                        <label>Antal:</label>
+                        <input type="number" name="quantity" min="1" max="10" value="1" required style="width:60px;">
+                        <button type="button" class="remove-meal" style="display:none;">Ta bort</button>
+                    </div>
+                </div>
+                <button type="button" id="add-meal" style="margin:10px 0 20px 0;">Lägg till maträtt</button>
+
+                <label for="notes">Övriga önskemål:</label>
+                <textarea id="notes" name="notes" rows="2" placeholder="T.ex. utan lök, extra sås..."></textarea>
+
+                <button type="submit">Beställ</button>
+                <div id="total-price" style="margin:10px 0 20px 0; color:#ffb366; font-size:1.1em;"></div>
+            </form>
+            <div id="order-confirmation" style="display:none; margin-top:20px; color:#ffb366; font-size:1.2em;"></div>
+        </div>
+    </div>
+</body>
+</html>
